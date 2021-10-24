@@ -1,0 +1,135 @@
+/* CSS Document */
+
+body
+{
+background: url(pictures/background_nav.png);
+margin: 0px;
+min-width: 960px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin: 85px 0px 0px 0px; 
+}
+
+h1, h2, h3, h4, h5, h6 
+{
+text-align: center;
+font-size: 2em;
+}
+
+article 
+{
+background: url(pictures/background_article.png);
+color: black;
+font: normal normal normal 1em Verdana, Geneva, Tahoma, sans-serif;
+padding: 30px 0px;
+}
+
+header 
+{
+        height: 85px; 
+        position: fixed;
+        top: 0px;
+        background: url(pictures/background_nav.png);
+        width: 100%; 
+         
+}
+
+article header
+{
+width: 250px;
+float: left;
+position: static;
+background: none;
+color: white;
+
+}
+
+article section {
+        width: 660px;
+        float: left;
+        background: white;
+        border: 1px solid black;
+        /* none, hidden, dotted, dashed, solid, double, groove, ridge, inset, outset, inherit */
+        /*border-radius: 10px;*/
+        padding: 20px; /*lze rozepsat top, right, left, bottom*/
+}
+
+#logo {
+        background: url('pictures/logo.png') no-repeat;
+        width: 290px;
+        height: 60px;
+        float: left;
+        margin: 10px 0px 0px 20px;
+        color: white;
+        font-size: 3em; 
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', Gadget, sans-serif;; 
+}
+
+#logo h1 
+{
+   margin: 0px 0px 0px 64px;
+   font-size: 1em;
+   color: white;
+   
+}
+
+nav ul {
+        margin: 0px;
+        list-style-type: none;
+        
+}
+
+nav ul li {
+        float: left;
+        padding: 0px 25px;
+        margin: 0 5px;
+        font-size: 17px;
+        height: 85px;
+        line-height: 4.3em;
+        
+}
+
+nav a {
+        color: white;
+        text-decoration: none;
+}
+
+nav ul li:hover, .aktivni { /*vzbrana poloyka v navigacnim menu*/
+        background-color: rgb(51,153,255);
+        color: black;
+        box-shadow: 0px 0px 10px black;
+}
+
+footer {
+        height: 40px;
+        color: white;
+        margin: 20px 0 0 30px;
+}
+
+#centrovac
+{
+width: 960px;
+margin: 0px auto;
+}
+
+#reference img {
+        border: 1px solid gray;
+        padding: 6px;
+        box-shadow: 3px 3px 6px #999999;
+        margin-right: 6px;
+}
+
+.stred {text-align: center;}
+.blok {text-align: justify;}
+.cistic {clear: both;}
+.vlevo {float: left;}  
+.obrazek
+{
+margin: 10px 10px 10px 10px;
+}
+
+
+
+
+
+
+            
